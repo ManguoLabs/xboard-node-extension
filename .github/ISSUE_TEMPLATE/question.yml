@@ -1,0 +1,20 @@
+name: Integration question
+description: Ask about formats, protocols, or node-pool design.
+title: "[Question] "
+body:
+  - type: markdown
+    attributes:
+      value: "Do not post subscription URLs, tokens, private node addresses, or customer data."
+  - type: textarea
+    id: source_type
+    attributes:
+      label: Source type
+      description: For example Clash, JSON, or remote API. Do not include the private URL.
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+    validations:
+      required: true
